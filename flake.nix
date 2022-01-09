@@ -29,6 +29,7 @@
     packages = perSystem (system: {
       inherit ((nixpkgsFor system).haskellPackages) ninja2nix;
     });
+    defaultPackage = perSystem (system: self.packages.${system}.ninja2nix);
 
     devShell = perSystem (system:
       let pkgs = nixpkgsFor system; in
