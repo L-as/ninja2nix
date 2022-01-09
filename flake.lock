@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1641740707,
-        "narHash": "sha256-xY3GM7nV49KUj6WAnmOOYMOmJ2YnSaILEDhkYqqUwgw=",
+        "lastModified": 1641753497,
+        "narHash": "sha256-4hgroVf1X6QIZ4N29wZ4Yv2R0xszm/pSttGq4i0fxgc=",
         "owner": "L-as",
         "repo": "language-ninja",
-        "rev": "4e4ef2f7a27af7a5f6531a422de40ec9ab9bf435",
+        "rev": "bf9e9f58122082bd1b526b61ed2d2b7d87aad712",
         "type": "github"
       },
       "original": {

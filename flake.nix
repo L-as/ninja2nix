@@ -18,7 +18,7 @@
   {
     haskellOverlay = pkgs:
       let lib = pkgs.haskell.lib.compose; in
-      nixpkgs.lib.composeExtensions (haskellOverlay' pkgs lib) (language-ninja.haskellOverlay pkgs lib);
+      nixpkgs.lib.composeExtensions (haskellOverlay' pkgs lib) (language-ninja.haskellOverlay pkgs);
 
     overlay = final: prev: {
       haskellPackages = prev.haskellPackages.override {
