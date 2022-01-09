@@ -1,0 +1,48 @@
+{
+  "nodes": {
+    "language-ninja": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1641740707,
+        "narHash": "sha256-xY3GM7nV49KUj6WAnmOOYMOmJ2YnSaILEDhkYqqUwgw=",
+        "owner": "L-as",
+        "repo": "language-ninja",
+        "rev": "4e4ef2f7a27af7a5f6531a422de40ec9ab9bf435",
+        "type": "github"
+      },
+      "original": {
+        "owner": "L-as",
+        "repo": "language-ninja",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1640451826,
+        "narHash": "sha256-jRbMiGQsVQg1MAbur6WahrMKLZubT7cDhfsf7OW+AlA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "dfc501756b09fa40f9eeb4a1c12ccd225ba3e3d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "dfc501756b09fa40f9eeb4a1c12ccd225ba3e3d8",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "language-ninja": "language-ninja",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
